@@ -1,0 +1,183 @@
+body{
+    background: #c2c0c0;
+}
+.wave{
+    background: black;
+    height: 530px;
+    padding: 15px;
+    width: 260px;
+    border-radius: 40px;
+    position: relative;
+    margin: 200px auto;
+    box-shadow: 0 0 20px rgb(0,0,0,0.5);
+}
+.wave::before{
+    content: "";
+    width: 120px;
+    height: 23px;
+    background: black;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+}
+.phone{
+    width: 100%;
+    height: 100%;
+    background:white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.font {
+    width: 100%;
+    height: 35%;
+    background: blue;
+    border-radius: 15px;
+    margin-bottom: 132%;
+}
+.font1 {
+   
+    height: 50%;
+    background: white;
+    border-radius: 15px;margin-bottom: 115%;
+}
+
+a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin: 3%;
+    margin-top: 3%;
+     position: absolute;
+
+}
+a:hover{
+    color: rgb(103, 103, 110);
+}
+.carte{
+    width: 68%;
+    height: 19%;
+    background: rgb(25, 202, 254);
+    border-radius: 15px;
+    position: absolute;
+    margin-top: 36%;
+    margin-left: 10%;
+    
+}
+.carte img{
+margin-top: -2%;
+}
+
+.img1{
+    margin-left: 110%;
+    margin-top: -28%;
+}
+.img2{
+    width: 100px;
+    height: 90px;
+    margin-left: 10%;
+    margin-top: 10%;
+    border-radius: 15px;
+}
+.bande{
+    width: 88%;
+    position: absolute;
+    padding: 3px;
+    background: rgba(128, 128, 128, 0.334);
+    margin-top: 125%;
+}
+.n1{
+    position: absolute;
+    width: 214px;
+    height: 114px;
+    background: white;
+    margin-top: 128%;
+    padding: 20px;
+    border-radius: 15px;
+    margin-left: 1%;
+}
+.p11{
+    margin-top: -15%;
+    display: flex;
+    gap: 61px;
+    position: absolute;
+}
+.p12{
+    margin-top: -8%;
+    display: flex;
+    gap: 53px;
+    position: absolute;
+}
+.p13{
+    margin-top: -8%;
+    display: flex;
+    gap: 42px;
+    position: absolute;
+}
+.p14{
+    margin-top: -8%;
+    display: flex;
+    gap: 50px;
+    position: absolute;
+}
+.bande1{
+    width: 76%;
+    position: absolute;
+    padding: 20px;
+    background: white;
+    margin-top: 57%;
+    border-radius: 15px;
+}
+.c1{
+  position: absolute;
+ bottom: 269px;
+ gap: 33px;
+ transform: translateX(10%);
+ display: flex;
+left: 2%;
+width: 90%;
+text-align: center;
+}
+span{
+    font-size: 10px;
+}
+.c2{
+  position: absolute;
+ bottom: 205px;
+ gap: 36px;
+ transform: translateX(10%);
+ display: flex;
+left: 3%;
+width: 90%;
+text-align: center;
+}
+.l1{
+    position: absolute;
+    gap: 4px;
+    display: flex;
+    margin-top: 2%;
+    margin-left: 65%;
+}
+.fa-eye{ 
+    margin-left: 3%;
+    margin-top: 4%;
+}
+.eye{
+    margin-left: 27%;
+    height: 50px;
+    margin-top: 2%;
+}
+.parametre{
+     margin-left: 2%;
+    margin-top: 5%;
+}
+.eye1{
+    display: flex;
+}
+.e1{
+    margin-top: 2%;
+}
